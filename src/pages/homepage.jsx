@@ -20,7 +20,7 @@ import AllProjects from "../components/projects/allProjects";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
-
+import DownloadCV from '../components/DownloadCV';
 import "./styles/homepage.css";
 
 const Homepage = () => {
@@ -164,6 +164,11 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
+						</div>
+
+						<div>
+  							<h1>Welcome to My Portfolio</h1>
+  								<DownloadCV />
 						</div>
 
 						<div className="homepage-projects">
